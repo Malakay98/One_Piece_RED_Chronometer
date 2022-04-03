@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(230, 0, 0);
+  background-image: url("../img/girlRED.png");
+  background-repeat: no-repeat;
+  background-size: 1400px;
+  background-attachment: fixed;
+  background-position: 100px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cardo', serif;
+}
+
+#links .navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 6vh;
+}
+
+#links .navbar-nav {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  display: flex;
+  margin-right: 0.6rem;
+  margin-top: 0.2rem;
+  border-radius: 10%;
+}
+
+#links ul li:hover {
+  transition: 0.8s ease-in-out;
+}
+
+#links ul li a {
+  background-color: #000000;
+  padding: 0.8rem;
+}
+
+#links ul li a:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.5s ease-in-out;
+}
+
+#facebook:hover {
+  background-color: #3b5998;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+#twitter:hover {
+  background-color: #1da1f2;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+#instagram:hover {
+  background-color: #833ab4;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+#youtube:hover {
+  background-color: #ac0e0e;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+.container-2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+
+.chronometer {
+  margin: auto;
+  color: #030303;
+  font-size: 8rem;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgba(182, 140, 84, 0.5);
+  box-shadow: 0px 5px 10px 5px;
+  border-radius: 10px;
+  width: 60%;
+  text-align: center;
+}
+
+
+
+/* IMAGES */
+
+.logo_OP {
+  position: relative;
+  transform: translate(160%, 50px);
+  width: 60%;
+}
+
+.JP_text {
+  position: fixed;
+  top: 0;
+  left: 20px;
+}
+
+.comSoon {
+  width: 500px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
